@@ -5,55 +5,63 @@
     border: 0;
   }
   
-  .app {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-  }
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
   
-  .page {
-    height: 100%;
-    width: 100%;
-    display: flex;
-  }
+.page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
   
-  .flex {
-    display: flex;
-  }
+.flex {
+  display: flex;
+}
   
-  .row {
-    flex-direction: row;
-  }
+.row {
+  flex-direction: row;
+}
   
-  .column {
-    flex-direction: column;
-  }
+.column {
+  flex-direction: column;
+}
   
-  .center {
-    justify-content: center;
-    align-items: center;
-  }
+.center {
+  justify-content: center;
+  align-items: center;
+}
   
-  .full-width {
-    width: 100%;
-  }
+.flex-start {
+  justify-content: flex-start;
+}
+
+.full-width {
+  width: 100%;
+}
   
-  .full-height {
-    height: 100%;
-  }
+.full-height {
+  height: 100%;
+}
   
-  .half-width {
-    width: 50%;
-  }
+.half-width {
+  width: 50%;
+}
   
-  .half-height {
-    height: 50%;
-  }
+.half-height {
+  height: 50%;
+}
   
-  .bold {
-    font-weight: bold;
-  }
+.bold {
+  font-weight: bold;
+}
   
-  .rounded {
-    border-radius: 5px;
-  }
+.rounded {
+  border-radius: 5px;
+}
+
+.gap {
+  gap: 10px;
+}
