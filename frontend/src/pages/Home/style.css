@@ -1,0 +1,17 @@
+.home-page {
+    background-image: url("../../assets/landing-page.jpg");
+    background-size: cover;
+}
+
+.text {
+    padding: 300px;
+    gap: 50px;
+}
+
+.text h1 {
+    font-size: 36px;
+}
+
+.text p{
+    font-size: 24px;
+}
