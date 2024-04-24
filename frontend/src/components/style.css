@@ -17,6 +17,7 @@
 
 .nav-content a{
     font-size: 24px;
+    cursor: pointer;
 }
 
 .btns-container {
@@ -30,4 +31,15 @@
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .nav-content, .btns-container {
+        display: none;
+    }
 }

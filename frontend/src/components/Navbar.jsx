@@ -1,7 +1,7 @@
-import logo from "../assets/logo.png"
-import "../styles/colors.css"
-import "../styles/utilities.css"
-import "./style.css"
+import logo from "../assets/logo.png";
+import "../styles/colors.css";
+import "../styles/utilities.css";
+import "./style.css";
 
 const Navbar = () => {
     return (
