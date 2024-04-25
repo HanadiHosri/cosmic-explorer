@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar";
 import image from "../../assets/auth.jpg";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
     return (
@@ -23,7 +24,7 @@ const Signup = () => {
                         <input className="rounded input-field" type="password" placeholder="*********" />
                     </div>
                     <div>
-                        <p className="grey-text">Already have an account? <a className="primary-text underline">Login</a></p>
+                        <p className="grey-text">Already have an account? <Link to="/login" className="primary-text underline">Login</Link></p>
                     </div>
                     <div>
                         <button className="btn">Sign up</button>

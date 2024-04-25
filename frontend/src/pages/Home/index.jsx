@@ -3,6 +3,7 @@ import "../../styles/colors.css";
 import "./style.css";
 import Navbar from "../../components/Navbar";
 import heroImage from "../../assets/landing-page.jpg";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
                             <p>Start your cosmic journey today!</p>
                         </div>
                         <div className="start-now">
-                            <button>Start now!</button>
+                            <Link to="/signup"><button>Start now!</button></Link>
                         </div>
                     </div>
                 </div>
